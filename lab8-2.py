@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# author: Seher Köseoğlu
-# Student number:
+# author: Melih Safa Celik
+# Student number: 010180519
 # Bilinmesi gerekilen donusum formulu: (deg/360)=(radian/2pi)=(grad/400)
 
 from math import pi #direkt import math da diyebilirsin
