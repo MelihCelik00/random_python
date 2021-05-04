@@ -1,0 +1,30 @@
+import sys
+import math
+
+arr = []
+n = int(input())
+
+def printArraystring(string, n):
+    for i in range(n):
+        print(string[i], end = "\n")
+ 
+def sort(s, n):
+    for i in range(1, n):
+        temp = s[i]
+ 
+        # Insert s[j] at its correct position
+        j = i - 1
+        while j >= 0 and len(temp) < len(s[j]):
+            s[j + 1] = s[j]
+            j -= 1
+ 
+        s[j + 1] = temp
+
+
+
+for i in range(n):
+    word = input()
+    arr.append(word)
+
+sort(arr, n)
+printArraystring(arr, n)
